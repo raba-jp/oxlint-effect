@@ -10,8 +10,6 @@
 bun add github:raba-jp/oxlint-effect
 ```
 
-`oxc-parser` も lint 実行時に必要なので、未導入なら追加してください (oxlint プロジェクトでは通常導入済)。
-
 ## 使い方
 
 `.oxlintrc.json` で `plugins` にパッケージ名を、`rules` のキー prefix に `effect/` を指定します。
