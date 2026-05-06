@@ -1,0 +1,27 @@
+{
+  "name": "oxlint-effect",
+  "version": "0.0.0",
+  "private": true,
+  "description": "oxlint plugin with effect-ts focused rules",
+  "type": "module",
+  "exports": {
+    ".": "./src/plugin.js"
+  },
+  "files": ["src"],
+  "scripts": {
+    "test": "bun test",
+    "test:watch": "bun test --watch"
+  },
+  "dependencies": {
+    "@oxlint/plugins": "^1.59.0"
+  },
+  "devDependencies": {
+    "oxc-parser": "^0.124.0",
+    "@types/bun": "latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raba-jp/oxlint-effect.git"
+  },
+  "license": "MIT"
+}
